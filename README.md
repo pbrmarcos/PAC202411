@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste guia, vamos explorar os comandos de entrada e saída em linguagem C ANSI, os quais são essenciais para criar programas interativos que podem se comunicar com o usuário.
+Neste guia, vamos explorar os comandos de entrada e saída em linguagem **C ANSI**, os quais são essenciais para criar programas interativos que podem se comunicar com o usuário.
 
 Imagine que você está construindo um jogo de adivinhação. Para que o jogo funcione, você precisa pedir ao jogador que digite um número e, em seguida, informar se ele adivinhou o número correto. Isso envolve a entrada de dados do jogador (o número digitado) e a saída de informações para o jogador (se ele adivinhou ou não o número correto).
 
@@ -79,7 +79,7 @@ int main() {
 
 O comando `printf()` oferece diversas opções de formatação para controlar a aparência da saída na tela. Por exemplo, você pode especificar a largura dos campos, o alinhamento do texto, o número de casas decimais para números flutuantes e muito mais.
 
-Para formatar a saída, você utiliza uma string de formato que contém instruções para `printf()`. A string de formato é composta por:
+Para formatar a saída, você utiliza uma string de formato que contém instruções para `printf()`. A *string* de formato é composta por:
 
 - Texto normal: O texto que será exibido diretamente na tela.
 - Formatadores: Indicadores especiais que definem como os valores das variáveis serão exibidos.
